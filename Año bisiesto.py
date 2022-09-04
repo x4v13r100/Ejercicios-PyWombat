@@ -1,6 +1,6 @@
 
 
-año=int(input("Ingrese el año: \n"))
+año=int(input("Ingrese el año que desee: \n"))
 
 def año_bisiesto(año):
     if año%4==0 and año&100!=0:
